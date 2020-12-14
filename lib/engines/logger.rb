@@ -31,6 +31,7 @@ module Engines
         __setup if @logger.nil?
         @logger
       end
+      module_function :logger
 
 
       private
