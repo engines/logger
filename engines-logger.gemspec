@@ -22,7 +22,8 @@ Gem::Specification.new do |s|
     "source_code_uri"   => s.homepage
   }
 
-  s.add_dependency "logging",  "~> 2.3"
+  s.add_dependency "logging",       "~> 2.3"
+  s.add_dependency "dry-inflector", "~> 0.1"
 
   s.files = `git ls-files -z lib`.split(/\0/)
 end
