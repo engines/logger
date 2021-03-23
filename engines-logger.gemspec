@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name = "engines-logger"
   s.version = Engines::Logger::VERSION
   s.date = Time.now.strftime("%Y-%m-%d")
-  s.summary = "Optinionated logging wrapper for Engines"
+  s.summary = "Opinionated logging wrapper for Engines"
   s.email = "rgh@engines.org"
   s.homepage = "http://github.com/engines/engines-logger"
   s.description = "Wrapper around the logging gem with sensible defaults and configuraton via environment variables"
